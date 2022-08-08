@@ -1,8 +1,15 @@
 body{
     background: yellow;
-    color: black;
+    color: rgb(255, 0, 0);
+    font-family: roboto;
+    font-size: x-large;
+    text-align: center;
 }
 
 img{
     width: 320px;
+}
+
+img:hover {
+    transform: scalex(-1);
 }
